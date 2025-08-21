@@ -1,0 +1,141 @@
+{
+  "manualResponses": {
+    "about me": "🤖 I'm here to help you with Arah Infotech-related queries like services, careers, and projects.",
+    "hello world": "🤖 I'm here to help you with Arah Infotech-related queries like services, careers, and projects.",
+    "work schedule": "⏰ We work:\n• 8 hours/day\n• 10AM-6PM IST\n• Monday-Friday",
+    "current work": "🛠️ Currently building an HR Management System (HRMS) with cool AI features!",
+    "hrms": "🛠️ Currently building an HR Management System (HRMS) with cool AI features!"
+  },
+  
+  "responseTemplates": {
+    "greeting": {
+      "triggers": ["hi","hello","hey","hlo","hii"],
+      "response": "👋 Hi! How can I help?"
+    },
+    "howareyou": {
+      "triggers": ["how are you","how r u","how ru","how are u","how're you","how r you","how are ya","hw r u"],
+      "response": "😊 I'm a bot, but thanks for asking! How can I assist you today?"
+    },
+    "email": {
+      "triggers": ["email","mail"],
+      "response": "📧 Email us anytime at: ops@arahinfotech.net"
+    },
+    "phone": {
+      "triggers": ["phone","number","call","Demo","contact number","contact us"],
+      "response": "📞 Call us: +91 89198 01095 / +91 63042 44117"
+    },
+    "contactinfo": {
+      "triggers": ["contact","get in touch","reach out","Contact support","contact us","lead call"],
+      "response": "📩 Contact us:\n📧 ops@arahinfotech.net\n📞 +91 89198 01095"
+    },
+    "location": {
+      "triggers": ["where","location","address","find you","where is arah infotech located","where is your office","where are you located","where is your office","where is your company"],
+      "response": "📍 Hyderabad Office:\n2nd Floor, Spline Arcade\nAyyappa Society Main Road\n500081"
+    },
+    "services": {
+      "triggers": ["service","offer","what do you do","what services","what do you offer","services offered","services"],
+      "response": "💼 We excel at:\n• Web & App Development\n• AI/ML Solutions\n• Digital Marketing\n• Cloud Security\nVisit our Services page for details!"
+    },
+    "trainings": {
+      "triggers": ["do you provide trainings", "do u provide trainings", "any trainings", "training", "do you have trainings"],
+      "response": "📚 We don’t provide trainings — we focus only on delivering IT services."
+    },
+    "institute": {
+      "triggers": ["are you an institute", "is it an institute", "is this an institute", "are you an educational institute", "is this an educational institute", "institute"],
+      "response": "🏢 Nope, we’re not an institute — we’re a professional IT solutions company."
+    },
+    "branches": {
+      "triggers": ["how many branches", "branches", "do you have multiple branches"],
+  "response": "📍 Our only branch is **Arah Infotech**, dedicated to serving our clients with focus."
+    },
+    "callback": {
+      "triggers": ["can someone call me back", "call me back", "can i get a call", "can your team call me"],
+  "response": "📞 Currently, we can't provide a direct callback. But you can always reach us by email at ops@arahinfotech.net or call us directly at +91 89198 01095 / +91 63042 44117."},
+
+    "clients": {
+      "triggers": ["client","customer","partner"],
+      "response": "🤝 We've worked with:\nGoogle • Intel • Amazon\nSony • IBM • Samsung\nSee our About page for more"
+    },
+    "founding": {
+      "triggers": ["established","founded","start date","when was arah"],
+      "response": "🎉 We started our journey in May 2025!"
+    },
+    "about": {
+      "triggers": ["about","who are you","what is arah","company info","tell me about arah","arah infotech","who r u"],
+      "response": "🌟 We're Arah Infotech - tech experts building AI and software to help businesses grow smarter and faster."
+    },
+    "vision": {
+      "triggers": ["vision","goal","future"],
+      "response": "🚀 We aim to lead the world in smart tech solutions that transform how businesses work."
+    },
+    "mission": {
+      "triggers": ["mission","purpose"],
+      "response": "🎯 We create intelligent tools that solve real business challenges and open new opportunities."
+    },
+    "careers": {
+      "triggers": ["career","job","opening","vacancy","apply","work","hiring","careers","roles"],
+      "response": "💼 Join our team! Open positions:\n- Full Stack Developer\n- UI/UX Designer\n- Cloud Security Engineer\nVisit our Careers page to apply."
+    },
+    "web_development": {
+      "triggers": ["web development"],
+      "response": "💡 We build beautiful, fast websites that work perfectly on all devices. See examples on our Services page."
+    },
+    "app_development": {
+      "triggers": ["app development"],
+      "response": "📱 We make apps for phones and computers - from design to launch. Works on Android, iOS & Windows."
+    },
+    "digital_marketing": {
+      "triggers": ["digital marketing"],
+      "response": "📢 We boost your online presence through social media, search engines, and email campaigns. Let's discuss your needs!"
+    },
+    "ai": {
+      "triggers": ["artificial intelligence","ai"],
+      "response": "🤖 Our AI solutions automate tasks, understand speech, and analyze data to make your business smarter."
+    },
+    "ml": {
+      "triggers": ["machine learning","ml"],
+      "response": "📊 Our ML systems improve over time, perfect for recommendations, fraud detection, and image analysis."
+    },
+    "cloud": {
+      "triggers": ["cloud security"],
+      "response": "☁️ We protect your cloud data with encryption, access controls, and threat monitoring."
+    },
+    "confidential": {
+      "triggers": ["hr","manager","ceo","cto","director","owner","team info","who leads"],
+      "response": "🔒 That information is confidential, but I can share public details about our company!"
+    },
+    "social": {
+      "triggers": ["social media","social links","where to follow","facebook","instagram","linkedin"],
+      "response": "🌐 Find us on:\n• LinkedIn: linkedin.com/company/arah-infotech\n• Instagram: @arah_infotech\n• YouTube: @arah_infotech\n(All links in our website footer too!)"
+    },
+    "thanks": {
+      "triggers": ["thank","thanks","appreciate","grateful","thank you","thankyou"],
+      "response": "😊 You're welcome! Ping me anytime if you need more help."
+    },
+    "goodbye": {
+      "triggers": ["bye","goodbye","see you","talk later","ok"],
+      "response": "👋 Have a great day! Just say 'Hi' whenever you need me."
+    },
+    "hours": {
+      "triggers": ["working hours","office timings","work schedule","how many hours"],
+      "response": "⏰ We work:\n• 8 hours/day\n• 10AM-6PM IST\n• Monday-Friday"
+    },
+    "projects": {
+      "triggers": ["project","hrms","working on","current work"],
+      "response": "🛠️ Currently building an HR Management System (HRMS) with cool AI features!"
+    },
+    "techStack": {
+      "triggers": ["technologies","tech","stack","tools","languages"],
+      "response": "💻 Our tech expertise:\n• Frontend: React, HTML, CSS, Bootstrap\n• Backend: Node.js, Python, Java, SpringBoot, PHP\n• Databases: MySQL, MongoDB\n• Tools: GitHub, VS Code"
+    },
+    "abuseFilter": {
+      "triggers": ["idiot","stupid","fool","scold","dumb","shut up","useless","worthless"],
+      "response": "🚨 I'm here to help professionally. Let me know if you have any questions about our services."
+    },
+    "fallback": {
+      "triggers": [],
+    "response": "🤔 I’m not sure I understood. I can help with these topics:\n• Websites & Apps\n• Digital Marketing\n• AI & Cloud Services\n• Work Hours\n• Our Projects\nWhich one would you like to know more about? 🙂"
+    }
+
+  }
+}
