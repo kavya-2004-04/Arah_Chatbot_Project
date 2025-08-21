@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Desktop/bot-arah"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Arah_Infotech-master",
+		"git.ignoreLimitWarning": true
+	}
+}

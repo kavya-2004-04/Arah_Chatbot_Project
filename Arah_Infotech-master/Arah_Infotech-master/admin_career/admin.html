@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel - Arah Infotech</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="p-4">
+  <h2>Add New Job Opening</h2>
+  <form id="jobForm" class="mb-4">
+    <input type="text" id="title" placeholder="Job Title" class="form-control mb-2" required>
+    <textarea id="description" placeholder="Job Description" class="form-control mb-2" required></textarea>
+    <input type="text" id="location" placeholder="Location" class="form-control mb-2" required>
+    <button type="submit" class="btn btn-success">Add Job</button>
+  </form>
+
+  <h3>Current Openings</h3>
+  <ul id="jobList"></ul>
+
+  <script src="admin.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Admin - Post Jobs</title>
+  <link rel="stylesheet" href="/admin_career/style.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="contact-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center">
+
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto">
+         <img src="assets/img/logo1.png" alt="logo">
+        <h1 class="sitename">Arah Infotech</h1>
+      </a> -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/career.html">Careers</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      
+    </div>
+  </header>
+  <h2>Add Job Opening</h2>
+  <form id="jobForm">
+    <input type="text" id="title" placeholder="Job Title" required>
+    <input type="text" id="experience" placeholder="Experience (e.g. 2-4 years)" required>
+    <input type="text" id="skills" placeholder="Skills (comma-separated)" required>
+    <input type="text" id="job_description" placeholder="Job Description" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <button type="submit">Add Job</button>
+  </form>
+
+  <h3>Current Jobs</h3>
+  <p id="noJobsMessage" style="display:none;">Currently, there are no jobs available.</p>
+  <ul id="jobList"></ul>
+
+  <script src="/admin_career/admin.js"></script>
+</body>
+</html>
